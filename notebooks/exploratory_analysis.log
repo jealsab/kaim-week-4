@@ -1,0 +1,64 @@
+2025-01-02 23:14:31,002 - INFO - Exploratory Data Analysis script started.
+2025-01-02 23:14:33,456 - INFO - Dataset successfully loaded.
+2025-01-02 23:14:33,457 - INFO - Displaying the first few rows of the dataset.
+2025-01-02 23:14:33,464 - INFO - Converting 'Date' column to datetime format.
+2025-01-02 23:14:33,818 - INFO - Checking for missing values in the dataset.
+2025-01-02 23:14:34,187 - INFO - Missing values:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2025-01-02 23:14:34,189 - INFO - Handling missing values in the dataset.
+2025-01-02 23:14:34,329 - INFO - Removing outliers in the 'Sales' and 'Customers' columns.
+2025-01-02 23:14:34,634 - INFO - Adding derived features for analysis.
+2025-01-02 23:14:35,023 - INFO - Plotting distributions of 'Sales' and 'Customers'.
+2025-01-02 23:15:40,781 - INFO - Calculating and visualizing the correlation between 'Sales' and 'Customers'.
+2025-01-02 23:15:51,541 - INFO - Analyzing sales behavior during holidays.
+2025-01-02 23:15:52,108 - INFO - Analyzing seasonal effects on sales.
+2025-01-02 23:15:52,546 - INFO - Analyzing the effect of promotions on sales.
+2025-01-02 23:15:52,969 - INFO - Analyzing customer behavior during store opening and closing times.
+2025-01-02 23:16:08,159 - INFO - Cleaned data saved to ../data/cleaned_data.csv.
+2025-01-02 23:16:08,160 - INFO - Exploratory Data Analysis script completed.
+2025-01-02 23:27:00,364 - INFO - Starting analysis.
+2025-01-02 23:27:00,366 - ERROR - Error loading datasets: [Errno 2] No such file or directory: 'train.csv'
+2025-01-02 23:27:30,158 - INFO - Starting analysis.
+2025-01-02 23:27:32,460 - INFO - Datasets successfully loaded.
+2025-01-02 23:27:32,460 - INFO - Merging train and store datasets.
+2025-01-02 23:27:33,276 - INFO - Converting 'Date' column to datetime format.
+2025-01-02 23:27:33,543 - INFO - Adding time-based features.
+2025-01-02 23:27:34,720 - INFO - Handling missing values.
+2025-01-02 23:27:34,915 - INFO - Removing outliers in 'Sales'.
+2025-01-02 23:27:35,377 - INFO - Checking distribution of promotions in training set.
+2025-01-02 23:27:35,394 - INFO - Analyzing sales behavior around holidays.
+2025-01-02 23:27:35,789 - INFO - Analyzing seasonal effects on sales.
+2025-01-02 23:27:36,404 - INFO - Analyzing correlation between sales and customers.
+2025-01-02 23:27:45,158 - INFO - Analyzing the effect of promotions on sales.
+2025-01-02 23:27:45,727 - INFO - Analyzing which stores should have promos deployed.
+2025-01-02 23:27:47,046 - INFO - Analyzing customer behavior during store open/close times.
+2025-01-02 23:27:47,580 - INFO - Analyzing the effect of assortment type on sales.
+2025-01-02 23:27:48,329 - INFO - Analyzing the effect of competitor distance on sales.
+2025-01-02 23:27:56,228 - INFO - Analyzing effect of competitor openings on sales.
+2025-01-02 23:28:01,573 - INFO - Saving cleaned dataset.
+2025-01-02 23:28:39,482 - INFO - Analysis completed.
+2025-01-02 23:38:08,665 - INFO - Starting analysis.
+2025-01-02 23:38:11,007 - INFO - Datasets successfully loaded.
+2025-01-02 23:38:11,061 - INFO - Merging train and store datasets.
+2025-01-02 23:38:12,430 - INFO - Converting 'Date' column to datetime format.
+2025-01-02 23:38:13,082 - INFO - Adding time-based features.
+2025-01-02 23:38:15,699 - INFO - Handling missing values.
+2025-01-02 23:38:16,104 - INFO - Removing outliers in 'Sales'.
+2025-01-02 23:38:17,429 - INFO - Checking distribution of promotions in training set.
+2025-01-02 23:38:17,458 - INFO - Analyzing sales behavior around holidays.
+2025-01-02 23:38:18,839 - INFO - Analyzing seasonal effects on sales.
+2025-01-02 23:38:19,515 - INFO - Analyzing correlation between sales and customers.
+2025-01-02 23:38:30,831 - INFO - Analyzing the effect of promotions on sales.
+2025-01-02 23:38:31,245 - INFO - Analyzing which stores should have promos deployed.
+2025-01-02 23:38:32,537 - INFO - Analyzing customer behavior during store open/close times.
+2025-01-02 23:38:33,481 - INFO - Analyzing the effect of assortment type on sales.
+2025-01-02 23:38:34,973 - INFO - Analyzing the effect of competitor distance on sales.
