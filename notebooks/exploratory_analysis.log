@@ -62,3 +62,25 @@ dtype: int64
 2025-01-02 23:38:32,537 - INFO - Analyzing customer behavior during store open/close times.
 2025-01-02 23:38:33,481 - INFO - Analyzing the effect of assortment type on sales.
 2025-01-02 23:38:34,973 - INFO - Analyzing the effect of competitor distance on sales.
+2025-01-02 23:38:45,979 - INFO - Analyzing effect of competitor openings on sales.
+2025-01-02 23:38:48,720 - INFO - Saving cleaned dataset.
+2025-01-02 23:39:20,422 - INFO - Analysis completed.
+2025-01-02 23:42:03,837 - INFO - Starting analysis.
+2025-01-02 23:42:05,610 - INFO - Datasets successfully loaded.
+2025-01-02 23:42:05,629 - INFO - Merging train and store datasets.
+2025-01-02 23:42:06,619 - INFO - Converting 'Date' column to datetime format.
+2025-01-02 23:42:06,917 - INFO - Adding time-based features.
+2025-01-02 23:42:08,630 - INFO - Handling missing values.
+2025-01-02 23:42:08,927 - INFO - Removing outliers in 'Sales'.
+2025-01-02 23:42:09,713 - INFO - Checking distribution of promotions in training set.
+2025-01-02 23:42:09,794 - INFO - Analyzing sales behavior around holidays.
+2025-01-02 23:42:10,404 - INFO - Analyzing seasonal effects on sales.
+2025-01-02 23:42:11,183 - INFO - Analyzing correlation between sales and customers.
+2025-01-02 23:42:19,935 - INFO - Analyzing the effect of promotions on sales.
+2025-01-02 23:42:20,342 - INFO - Analyzing which stores should have promos deployed.
+2025-01-02 23:42:21,239 - INFO - Analyzing customer behavior during store open/close times.
+2025-01-02 23:42:21,959 - INFO - Analyzing the effect of assortment type on sales.
+2025-01-02 23:42:23,167 - INFO - Analyzing the effect of competitor distance on sales.
+2025-01-02 23:42:35,465 - INFO - Analyzing effect of competitor openings on sales.
+2025-01-02 23:42:40,001 - INFO - Saving cleaned dataset.
+2025-01-02 23:43:14,878 - INFO - Analysis completed.
