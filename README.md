@@ -1,7 +1,3 @@
-# kaim-week-4
-
-# kaim-week-3
-
 # KAIM 3 week 4
 
 Steps to Run the Project
