@@ -1,4 +1,6 @@
-myvenv
+myvenvv
 data
 notebooks/predictions.csv
+notebooks/cleaned_data.csv
 notebooks/preprocessed_data_final.csv
+.vercel
