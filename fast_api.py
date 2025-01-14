@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+from mangum import Mangum
 import numpy as np
 import joblib  # Import joblib to load the saved model
 
@@ -8,6 +9,7 @@ model = joblib.load("lstm.pkl")  # Ensure this is the correct path to your model
 
 # Initialize the FastAPI app
 app = FastAPI()
+handler = Mangum(app)
 
 # Define the request body structure
 class PredictionRequest(BaseModel):
